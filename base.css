@@ -1,0 +1,367 @@
+body{
+    position: relative;
+}
+section{
+    overflow: hidden;
+    background: #fff;
+    width: 100%;
+    padding: 0;
+    text-align: left;
+
+}
+
+.section-head{
+    height: 50px;
+    line-height: 50px;
+    background: red;
+}
+.section-head-container{
+    width: 1200px;
+    margin: 0 auto;
+    height: 50px;
+    background: red;
+}
+.section-head li{
+    float: left;
+    /*margin: 0 52px;*/
+    width: 10%;
+    text-align: center;
+    list-style: none;
+    color: white;
+
+}
+section-head-container-li{
+    list-style: none;
+    color: white;
+}
+.section-head li a{
+    color: white;
+    display: block;
+
+}
+.section-head li a:hover{
+    background: yellow;
+}
+.section-head li:hover{
+    background: yellow;
+}
+.section-container{
+    width: 1200px;
+    margin: 0 auto;
+    height: 340px;
+    background:#9ed3c1;
+}
+.section-left{
+    float: left;
+    width: 200px;
+    background: #000;
+    height: 340px;
+    margin-left: 25px;
+    position: relative;
+
+}
+section-left a{
+
+    float: left;
+}
+.section-center{
+    float: left;
+    width: 750px;
+    background: blue;
+    height: 340px;
+}
+.section-right{
+    float: right;
+    width: 200px;
+    height: 340px;
+    background:white;
+    margin-right: 25px;
+
+}
+.section-right p{
+    text-align: center;
+}
+
+.section-right p:first-child span{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: url("image/header/head.png") no-repeat center right;
+    background-size: cover;
+}
+.section-right p:nth-child(2){
+    margin-top: 10px;
+}
+.section-right p:nth-child(2) button{
+    outline: none;
+    background: #fff;
+    border: 1px solid red;
+}
+.section-right p:nth-child(3){
+    margin-top: 20px;
+    text-align: center;
+}
+
+.section-right p  a:first-child img{
+   display:block;
+    width: 80%;
+    height: 20px;
+    margin: 0 auto;
+}
+.section-right p a:last-child  img{
+    display:block;
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+}
+.star{
+    text-align: center;
+    height: 80px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.section-container-two{
+    width: 1150px;
+    margin: 0 auto;
+    background: white;
+}
+.section-container-two-head{
+    line-height: 85px;
+    background: url("image/header/tbd.png") no-repeat center;
+}
+.section-container-two-head h2{
+    font-size: 25px;
+    color: red;
+    text-align: center;
+}
+.section-container-two-content{
+    height: 850px;
+    overflow: hidden;
+
+}
+/*.section-container-two-content ul{*/
+    /*overflow: hidden;*/
+/*}*/
+/*.section-container-two-content li{*/
+    /*height: 380px;*/
+    /*box-sizing: border-box;*/
+    /*width: 200px;*/
+    /*float: left;*/
+    /*background: #9ed3c1;*/
+    /*border-top: 2px solid #f41;*/
+
+/*}*/
+/*.section-container-two-content li+li{*/
+    /*margin-left: 36px;*/
+/*}*/
+.section-container-two-content .good-box+.good-box{
+   margin-left: 40px;
+
+}
+.section-container-two-content .good-box:nth-child(6){
+    margin-left: 0px;!important;
+}
+.section-container-two-content .good-box{
+
+     margin-top: 20px;
+ }
+.section-container-two-content h3{
+    width: 100px;
+    line-height: 30px;
+    background: #f41;
+    color: white;
+}
+.section-container-two-content .good-desc{
+
+    line-height: 30px;
+    text-indent: 10px;
+
+}
+/*.section-container-two-detais {*/
+    /*width: 1150px;*/
+    /*height: 570px;*/
+    /*box-sizing: border-box;*/
+    /*border-top: 2px solid #f41;*/
+    /*border-bottom: 2px solid #f41;*/
+    /*margin: 10px auto;*/
+/*}*/
+.goods-left{
+    float: left;
+    border: 1px solid #ff4411;
+}
+.father{
+    padding: 20px;
+    float: left;
+    width: 600px;
+
+}
+
+.goods-button{
+    padding-left: 20px;
+    float: left;
+    margin-top: 30px;
+}
+.goods-button input{
+    display: inline-block;
+         height: 46px;
+         width: 50px;
+    text-align: center;
+
+}
+.goods-button button{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+
+}
+.goods-name{
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.father h3{
+    font-size: 20px;
+    margin-top: 60px;
+    color: red;
+}
+.father .goods-desc{
+    margin-top: 40px;
+    text-indent: 30px;
+    font-size: 20px;
+}
+
+.promptly-box{
+    margin-top: 100px;
+    margin-left: -173px;
+   float: left;
+    height: 50px;
+    padding-left: 20px;
+}
+.promptly-box button{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    color: white;
+    background: red;
+}
+.promptly-box .add-shoppingcar{
+    margin-left: 30px;
+
+}
+.balance-container{
+    background: #fff;
+    width: 1150px;
+}
+
+.balance-container h3{
+    font-weight: bold;
+     color: white;
+    background: #ededed;
+    padding-left: 30px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.balance-container h3:first-child{
+    color: black;
+    padding: 0;
+}
+.addr-container{
+    overflow: hidden;
+    border-top: 2px solid #ff4411;
+    border-bottom: 2px solid #ff4411;
+    padding: 10px 0;
+    overflow: hidden;
+
+}
+.addr-container .addr-button{
+    margin:5px 0 ;
+    width: 150px;
+    height: 30px;
+    background: #ff4411;
+    color: white;
+    float: right;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+
+}
+.pament{
+
+    overflow: hidden;
+    border-bottom: 2px solid #ff4411;
+    padding: 10px 0;
+}
+.pament button{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border: none;
+    margin: 5px 10px;
+    font-size: 20px;
+    background: #ff4411;
+    color: white;
+}
+.order_details{
+    overflow: hidden;
+    border-bottom: 2px solid #ff4411;
+    padding: 10px 0;
+}
+.order_details .order_details_head{
+    border-bottom: 1px solid #ff4411;
+    border-top:1px solid #ff4411;
+}
+.order_details .order_details_head span{
+    display: inline-block;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+
+}
+.submit_order{
+    padding: 10px 0;
+    border-bottom: 2px solid #ff4411;
+    overflow: hidden;
+}
+.submit_order .submit_order_foot{
+    float: right;
+}
+.submit_order .submit_order_foot .submit_order_button{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background: #ff4411;
+    color: white;
+    font-size: 20px;
+}
+ .submit_order .submit_order_foot .lgsum{
+     display: inline-block;
+     width: 150px;
+     height: 50px;
+     font-size: 20px;
+
+ }
+.deladdr{
+    outline: none;
+    border: none;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("image/header/del.png") no-repeat center ;
+    float: right;
+    background-size: 100% 100%;
+    margin-top: 5px;
+
+}
+
+.cart_content2 span{
+    vertical-align: top;
+
+    width: 270px;
+}
